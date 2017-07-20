@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="renderer" content="webkit"><!-- 强制360默认使用极速模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- 强制360默认使用极速模式 -->
+		<title>DOCTYPE</title>
+		<link rel="stylesheet" href="css/common.css">
+		<script src="js/rdn_banner.js"></script>
+	</head>
+<body>
+	<!-- banner -->
+	<div class="rendering_banner">
+		<div class="rdn_slideimg" id="rdn_slideimg">
+			<div style="background-color: rgb(204, 190, 169);" class="slideimglist show"><a href="#"><img src="images/rdn_banner2.jpg" alt=""></a></div>
+			<div style="background-color: rgb(185, 174, 170);" class="slideimglist"><a href="#"><img src="images/rdn_banner.jpg" alt=""></a></div>
+			<div style="background-color: rgb(217, 218, 207);" class="slideimglist"><a href="#"><img src="images/rdn_banner4.jpg" alt=""></a></div>
+			<div style="background-color: rgb(140, 167, 193);" class="slideimglist"><a href="#"><img src="images/rdn_banner3.jpg" alt=""></a></div>
+		</div>
+		<div class="rdn_inner">
+			<div class="rdn_intro">
+				<ul id="rdn_fontlist">
+					<li class='show'>
+						<em><a target="_blank" href="#">简约东南亚家居</a></em>
+						<span>本案是基调为白色的空间，少了色调的光彩炫目，却多了些许纯净。</span>
+					</li>
+					<li>
+						<em><a target="_blank" href="#">现代轻奢风潮住宅</a></em>
+						<span>现代、自然、简约、时尚的家，带给你休闲放松的生活状态。</span>
+					</li>
+					<li>
+						<em><a target="_blank" href="#">清爽乡村田园宅</a></em>
+						<span>本案公共区域的墙面大多数使用明亮、干净的白色，赋予空间安定舒适的基础频率，从而展现绝佳的居住氛围。</span>
+					</li>
+					<li>
+						<em><a target="_blank" href="#">爽朗北欧家居</a></em>
+						<span>简洁清爽的北欧设计基调，结合光线充足的公共区域，让生活空间能够拥有充沛且流通的生活韵味。</span>
+					</li>
+				</ul>
+			     <p class="slider_num" id="slider_num"><em>1</em> / <span>4</span></p>
+			     <a href="javascript:;" class="rdn_btn btn_left" id="btn_prev"></a>
+			     <a href="javascript:;" class="rdn_btn btn_right" id="btn_next"></a>
+		    </div>
+		</div>
+	</div>
+	<!-- banner end -->
+	<script>
+		var init = new slider({
+			"id":"rdn_slideimg",
+			"list":"rdn_fontlist",
+			"tips":"slider_num",
+			"prev":"btn_prev",
+			"next":"btn_next",
+			"time": 2000,
+			"autoPlay":true
+		});
+	</script>
+</body>
+</html>
