@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+fieldset,img{ border: 0; }
+:focus{ outline: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{ font-style: normal; font-weight: normal; }
+h1,h2,h3,h4,h5,h6{ font-size: 100%; font-weight: normal; font-family: "Microsoft YaHei"; }
+abbr,acronym,{ border: 0; font-variant: normal; }
+code,kbd,samp,tt{ font-size: 100%; }
+input,button,textarea,select{ *font-size: 100%; border:none;}
+ol,ul{ list-style: none; }
+i,em{font-style: normal;}
+a{text-decoration: none;}
+body{ background:#fff; color:#252525; font: 14px/1.4 Microsoft YaHei,SimSun,Arial;}
+
+
+.demobox{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.demobox p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0 ;
+}
+
+/*主要css*/
+.demo{
+    margin: 15px 0;
+    width: 470px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+}
+.demo ul li{
+    text-indent: 32px;
+    background: url(../images/ico_lb.png) no-repeat left center;
+}
